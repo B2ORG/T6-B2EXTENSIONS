@@ -2,7 +2,7 @@
 
 init()
 {
-    level.B2_PLUGIN_FRIDGE = ::set_fridge;
+    level.B2_FRIDGE = ::set_fridge;
     thread clear_variable();
 }
 
@@ -34,5 +34,5 @@ clear_variable()
     level endon("end_game");
 
     level waittill("end_of_round");
-    level.B2OP_PLUGIN_FRIDGE = undefined;
+    level.B2_FRIDGE = undefined;
 }

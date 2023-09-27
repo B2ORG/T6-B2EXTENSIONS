@@ -2,14 +2,14 @@
 
 init()
 {
-    level.B2_PLUGIN_HUD = array();
-    level.B2_PLUGIN_HUD["timer_hud"] = get_timer_hud();
-    level.B2_PLUGIN_HUD["round_hud"] = get_round_hud();
-    level.B2_PLUGIN_HUD["hud_velocity"] = get_velocity_hud();
-    level.B2_PLUGIN_HUD["springpad_hud"] = get_springpad_hud();
-    level.B2_PLUGIN_HUD["subwoofer_hud"] = get_subwoofer_hud();
-    level.B2_PLUGIN_HUD["turbine_hud"] = get_turbine_hud();
-    level.B2_PLUGIN_HUD["netframe_hud"] = get_netframe_hud();
+    level.B2_HUD = array();
+    level.B2_HUD["timer_hud"] = get_timer_hud();
+    level.B2_HUD["round_hud"] = get_round_hud();
+    level.B2_HUD["hud_velocity"] = get_velocity_hud();
+    level.B2_HUD["springpad_hud"] = get_springpad_hud();
+    level.B2_HUD["subwoofer_hud"] = get_subwoofer_hud();
+    level.B2_HUD["turbine_hud"] = get_turbine_hud();
+    level.B2_HUD["netframe_hud"] = get_netframe_hud();
 }
 
 /*
