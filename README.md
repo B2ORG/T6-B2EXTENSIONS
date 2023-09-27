@@ -9,5 +9,6 @@ GSC extensions for B2 patches
 | b2_ext_network | - | NO | B2OP, B2FR | New Pluto & Redacted |
 | b2_ext_powerup_tracking | - | NO | B2OP, B2FR, ~~B2SONG~~ | New Pluto |
 | b2_ext_splits | Easy | YES | B2OP, B2FR | New Pluto & Redacted |
+| b2_ext_zones | - | NO | B2OP, B2FR, ~~B2SONG~~ | New Pluto, Redacted |
 
 Plugins need to be compiled in order to work on Plutonium R2905
